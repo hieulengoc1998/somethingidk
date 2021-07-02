@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Montserrat, san-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+body button {
+  background-color: #ffa500;
+  border: none;
+  cursor: pointer;
+  padding: 5px 23px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+body button span {
+  font-weight: bold;
+}
+
+body div h1 {
+  text-align: center;
+}
+
+body div h3 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
